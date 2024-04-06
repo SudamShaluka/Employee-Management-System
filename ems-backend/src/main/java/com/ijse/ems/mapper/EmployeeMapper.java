@@ -4,7 +4,7 @@ import com.ijse.ems.dto.EmployeeDto;
 import com.ijse.ems.entity.Employee;
 
 public class EmployeeMapper {
-    public static EmployeeDto mapEmployeeDto (Employee employee) {
+    public static EmployeeDto mapToEmployeeDto (Employee employee) {
         return new EmployeeDto(
                 employee.getId(),
                 employee.getFirstName(),
